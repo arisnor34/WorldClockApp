@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/ErasSquaresBG.png");
+    background-image: url("/images/ErasSquaresBG.jpg");
     background-repeat: repeat;
     background-size: contain;
     font-family: sans-serif;
@@ -9,6 +9,7 @@ body {
     text-align: center;
     font-family: 'Castoro Titling', 'Instrument Serif', Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
+    margin: 0;
   }
   
   h2 {
@@ -20,6 +21,8 @@ body {
     text-align: center;
     font-family: 'Dancing Script', 'Satisfy', cursive;
     font-size: 24px;
+    margin: 0;
+    margin-bottom: 30px;
   }
   
   select {
@@ -33,7 +36,7 @@ body {
   .container {
     max-width: 600px;
     margin: 60px auto;
-    background: white;
+    background: #E6E0E9;
     padding: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
@@ -74,6 +77,6 @@ body {
     text-align: center;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(245, 245,245, 0.72);
+    background-color: rgba(230,224,234, 0.72);
     border-radius: 13px;
   }
