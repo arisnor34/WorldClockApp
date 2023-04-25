@@ -7,13 +7,19 @@ body {
   
   h1 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Castoro Titling', 'Instrument Serif', Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
   }
   
   h2 {
     margin: 0 0 5px;
     font-size: 28px;
+  }
+
+  h5 {
+    text-align: center;
+    font-family: 'Dancing Script', 'Satisfy', cursive;
+    font-size: 24px;
   }
   
   select {
@@ -59,9 +65,15 @@ body {
     vertical-align: middle;
     line-height: 48px;
   }
+
+  .container2 {
+    max-width: 600px;
+    margin: 60px auto;}
   
   footer {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(245, 245,245, 0.72);
+    border-radius: 13px;
   }
