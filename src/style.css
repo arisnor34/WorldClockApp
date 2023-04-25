@@ -32,6 +32,14 @@ body {
     border-radius: 4px;
     padding: 10px;
   }
+
+  a:link, a:visited {
+    color: #806599;
+  }
+
+  a:hover{
+    color: #DAA7B8;
+  }
   
   .container {
     max-width: 600px;
