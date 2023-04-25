@@ -1,5 +1,6 @@
 body {
-    background-color: #f9f7fe;
+    background-image: url("images/ErasSquaresBG.png");
+    background-repeat: repeat;
     font-family: sans-serif;
   }
   
