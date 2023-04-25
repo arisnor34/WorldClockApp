@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Dancing+Script&family=Instrument+Serif&family=Satisfy&display=swap" rel="stylesheet">
@@ -18,53 +20,59 @@
       <select id="city">
         <option value="">Select a city...</option>
         <option value="current">My current location</option>
-        <option value="America/Glendale">Glendale</option>
-        <option value="America/Las_Vegas">Las Vegas</option>
-        <option value="America/Arlington">Arlington</option>
-        <option value="America/Tampa">Tampa</option>
-        <option value="America/Houston">Houston</option>
-        <option value="America/Atlanta">Atlanta</option>
-        <option value="America/NAshville">Nashville</option>
-        <option value="America/Philidelpha">Philidelpha</option>
-        <option value="America/Foxborough">Foxborough</option>
-        <option value="America/East_Rutherford">East Rutherford</option>
-        <option value="America/Chicago">Chicago</option>
-        <option value="America/Detroit">Detroit</option>
-        <option value="America/Pittsburg">Pittsburgh</option>
-        <option value="America/Minneapolis">Minneapolis</option>
-        <option value="America/Cincinnati">Cincinnati</option>
-        <option value="America/Kansas_City">Kansas City</option>
-        <option value="America/Denver">Denver</option>
-        <option value="America/Seatle">Seatle</option>
-        <option value="America/Santa_Clara">Santa Clara</option>
-        <option value="America/Los_Angeles">Los Angeles</option>
-        <option value="Europe/London">London</option>
-        <option value="Pacific/Sydney">Sydney</option>
-        <option value="Canada/Montreal">Montreal</option>
-        <option value="Canada/Ottawa">Ottawa</option>
+        <option value="US/Arizona">Glendale, AZ</option>
+        <option value="US/Pacific">Las Vegas, NV</option>
+        <option value="US/Central">Arlington, TX</option>
+        <option value="US/Eastern">Tampa, FL</option>
+        <option value="US/Central">Houston, TX</option>
+        <option value="America/Atlanta">Atlanta, GA</option>
+        <option value="US/Central">Nashville, TN</option>
+        <option value="US/Eastern">Philidelpha, PA</option>
+        <option value="US/Eastern">Foxborough, MA</option>
+        <option value="US/Eastern">East Rutherford, NJ</option>
+        <option value="America/Chicago">Chicago, IL</option>
+        <option value="America/Detroit">Detroit, MI</option>
+        <option value="US/Eastern">Pittsburgh, PA</option>
+        <option value="US/Central">Minneapolis, MN</option>
+        <option value="US/Eastern">Cincinnati, OH</option>
+        <option value="US/Central">Kansas City, KS</option>
+        <option value="America/Denver">Denver, CO</option>
+        <option value="US/Pacific">Seattle, WA</option>
+        <option value="US/Pacific">Santa Clara, CA</option>
+        <option value="America/Los_Angeles">Los Angeles, CA</option>
+        <option value="Australia/Sydney">Sydney, AUS</option>
+        <option value="America/Montreal">Montreal, CAN</option>
       </select>
 
       <div id="cities">
-      <div class="city" id="london">
-        <h2>London 🇬🇧</h2>
-        <div class="date">August 15th 2022</div>
-        <div class="time">1:48:15 AM</div>
-      </div>
-      <div class="city" id="paris">
-        <h2>Paris 🇫🇷</h2>
-        <div class="date">August 15th 2022</div>
-        <div class="time">1:48:15 AM</div>
-      </div>
-      <div class="city" id="new-york">
-        <h2>New York 🇺🇸</h2>
-        <div class="date">August 15th 2022</div>
-        <div class="time">1:48:15 AM</div>
+        <div class="city" id="new-york">
+          <div>
+            <h2>New York</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="london">
+          <div>
+            <h2>London</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
       </div>
     </div>
   </div>
+
     <div class="container2">
     <footer>
-      This project was coded with 💕 by A. Skye Norman and is
+      This project was coded with 💕 by <strong>A. Skye Norman</strong> and is
       <a
         href="https://github.com/arisnor34/WorldClockApp"
         target="_blank"
